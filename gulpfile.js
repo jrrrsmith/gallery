@@ -43,3 +43,7 @@ gulp.task('watch', function() {
 gulp.task('default', ['watch'], function() {
 	gulp.start('sass', 'js');
 });
+
+gulp.task('build', function () {
+	gulp.start('sass', 'js');
+});
